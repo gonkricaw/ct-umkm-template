@@ -34,7 +34,7 @@ Anjuran (tidak dinilai sebagai minimum): sebarkan entri PTS ke minimal 3 pilar C
 3. **Ringkas jawaban AI** dengan kalimatmu sendiri, maksimal 5 kalimat. Kode boleh ditempel kalau pendek.
 4. **Periksa sebelum menilai.** Jalankan kodenya, hitung ulang dari datamu, atau telusuri pseudocode-nya dengan satu contoh. Jangan menilai `benar` hanya karena jawabannya terdengar meyakinkan.
 5. **Pilih satu pilar CT** yang paling dilatih di entri itu: Decomposition, Pattern Recognition, Abstraction, Algorithm Design, atau Evaluation.
-6. Isi tabel rekap di bagian 4 setiap kali menambah entri.
+6. Isi tabel rekap di bagian 5 setiap kali menambah entri.
 
 Kesalahan AI yang sering ditemukan mahasiswa:
 
@@ -131,7 +131,16 @@ Output: `semua uji lulus`. Keempat uji mewakili hapus di tengah, hapus tiket ter
 
 **Pilar CT:** Evaluation
 
-## 4. Isian kamu
+## 4. Cek sebelum commit
+
+- [ ] Setiap entri punya ketujuh bagian, dengan prompt yang disalin persis.
+- [ ] Setiap penilaian `salah` atau `kurang` punya bukti pemeriksaan yang bisa diulang dan menyebut file atau commit tempat koreksinya dipakai.
+- [ ] Tabel rekap sesuai dengan isi entri.
+- [ ] Menjelang PTS: minimal 5 entri, termasuk 3 kesalahan AI dikoreksi. Menjelang PAS: minimal 3 entri baru, termasuk 1 kesalahan AI baru.
+
+## 5. Isianmu
+
+Semua yang ada di bawah judul ini adalah isianmu, dan hanya bagian ini yang diperiksa dosen. Jangan menghapus judul ini dan jangan menambah bagian baru sesudahnya.
 
 ### Rekap
 
@@ -165,10 +174,3 @@ Salin blok di bawah ini untuk setiap entri. Nomori berurutan (J01, J02, dan sete
 ### Fase PAS
 
 Entri setelah rilis `v-pts` ditulis di sini, dengan format yang sama.
-
-## 5. Cek sebelum commit
-
-- [ ] Setiap entri punya ketujuh bagian, dengan prompt yang disalin persis.
-- [ ] Setiap penilaian `salah` atau `kurang` punya bukti pemeriksaan yang bisa diulang dan menyebut file atau commit tempat koreksinya dipakai.
-- [ ] Tabel rekap sesuai dengan isi entri.
-- [ ] Menjelang PTS: minimal 5 entri, termasuk 3 kesalahan AI dikoreksi. Menjelang PAS: minimal 3 entri baru, termasuk 1 kesalahan AI baru.

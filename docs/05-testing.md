@@ -43,7 +43,17 @@ Kalau kamu menulis uji otomatis untuk fungsi milikmu di folder `tests/`, jalanka
 
 Cek minimum: 6 kasus uji; 3 kasus tepi (U02, U03, U04); FW1 diuji di U01 dan U06, FW2 di U02 sampai U04, FW3 di U05; satu kasus Gagal dengan tindak lanjut.
 
-## 4. Isian kamu
+## 4. Cek sebelum commit
+
+- [ ] Ada minimal 5 kasus uji, dan minimal 2 di antaranya bertanda `(tepi)` atau `(ekstrem)`.
+- [ ] Setiap FW di README muncul minimal sekali di kolom Fitur.
+- [ ] Hasil aktual kutulis setelah menjalankan aplikasi di link live.
+- [ ] Setiap kasus Gagal punya penyebab, perbaikan dengan commit, dan hasil uji ulang (atau alasan belum diperbaiki).
+- [ ] Status FW di README bagian 5 sudah diperbarui.
+
+## 5. Isianmu
+
+Semua yang ada di bawah judul ini adalah isianmu, dan hanya bagian ini yang diperiksa dosen. Jangan menghapus judul ini dan jangan menambah bagian baru sesudahnya.
 
 **Lingkungan uji:** link live `<isi>` · perangkat dan browser `<isi>` · versi commit `<isi>`
 
@@ -56,11 +66,3 @@ Cek minimum: 6 kasus uji; 3 kasus tepi (U02, U03, U04); FW1 diuji di U01 dan U06
 | U05 | `<isi>` | `<isi>` | `<isi>` | `<isi>` | `<isi>` | `<isi>` |
 
 Kolom Tindak lanjut boleh kosong hanya untuk kasus yang Lulus.
-
-## 5. Cek sebelum commit
-
-- [ ] Ada minimal 5 kasus uji, dan minimal 2 di antaranya bertanda `(tepi)` atau `(ekstrem)`.
-- [ ] Setiap FW di README muncul minimal sekali di kolom Fitur.
-- [ ] Hasil aktual kutulis setelah menjalankan aplikasi di link live.
-- [ ] Setiap kasus Gagal punya penyebab, perbaikan dengan commit, dan hasil uji ulang (atau alasan belum diperbaiki).
-- [ ] Status FW di README bagian 5 sudah diperbarui.

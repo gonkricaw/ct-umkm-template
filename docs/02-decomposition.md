@@ -80,9 +80,19 @@ Cek aturan: 1 akar yang menyebut siapa yang rugi (pelanggan yang menitipkan jam)
 | 2. Janji ambil | 5 janji meleset: T02, T06, T11, T15, T19 |
 | 3. Pengambilan jam | T02 (pelanggan datang, belum jadi); T11 (pelanggan tanya lewat WA 2 kali) |
 
-## 4. Isian kamu
+## 4. Cek sebelum commit
 
-### 4.1 Fitur Wajib kasusku
+- [ ] Akar berisi masalah yang teramati (siapa yang rugi dan kapan), bukan solusi atau nama teknologi.
+- [ ] Ada minimal 3 node tingkat 1, masing-masing dengan minimal 2 anak dan satu jalur sampai tingkat 3.
+- [ ] Setiap Fitur Wajib muncul di satu node dengan tanda `(FW...)`.
+- [ ] Setiap cabang tingkat 1 punya bukti dari `01-data-lapangan.md`.
+- [ ] Diagram tampil sebagai gambar di github.com.
+
+## 5. Isianmu
+
+Semua yang ada di bawah judul ini adalah isianmu, dan hanya bagian ini yang diperiksa dosen. Jangan menghapus judul ini dan jangan menambah bagian baru sesudahnya.
+
+### 5.1 Fitur Wajib kasusku
 
 | Kode | Fitur Wajib (sama dengan README bagian 5) |
 |---|---|
@@ -90,7 +100,7 @@ Cek aturan: 1 akar yang menyebut siapa yang rugi (pelanggan yang menitipkan jam)
 | FW2 | `<isi>` |
 | FW3 | `<isi>` |
 
-### 4.2 Pohon masalah
+### 5.2 Pohon masalah
 
 Ganti label di bawah ini. Tambah node sesuai kebutuhan; jumlah di kerangka ini adalah batas minimum.
 
@@ -111,18 +121,10 @@ flowchart TD
     C1 --> C11["3.1.1 isi"]
 ```
 
-### 4.3 Bukti setiap cabang tingkat 1
+### 5.3 Bukti setiap cabang tingkat 1
 
 | Cabang tingkat 1 | Bukti dari `01` |
 |---|---|
 | 1. `<isi>` | `<isi: kode N atau T, dan kejadiannya>` |
 | 2. `<isi>` | `<isi>` |
 | 3. `<isi>` | `<isi>` |
-
-## 5. Cek sebelum commit
-
-- [ ] Akar berisi masalah yang teramati (siapa yang rugi dan kapan), bukan solusi atau nama teknologi.
-- [ ] Ada minimal 3 node tingkat 1, masing-masing dengan minimal 2 anak dan satu jalur sampai tingkat 3.
-- [ ] Setiap Fitur Wajib muncul di satu node dengan tanda `(FW...)`.
-- [ ] Setiap cabang tingkat 1 punya bukti dari `01-data-lapangan.md`.
-- [ ] Diagram tampil sebagai gambar di github.com.

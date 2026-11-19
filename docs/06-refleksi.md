@@ -29,9 +29,9 @@
 
 | ID | Bagian blueprint | Rencana (PTS) | Realisasi (PAS) | Mengapa berubah | Bukti |
 |---|---|---|---|---|---|
-| G1 | `03` 4.2, `TIKET.status` | `menginap`, `siap`, `diambil` | Ditambah `batal` | Saat uji coba, satu pelanggan membatalkan servis mesin. Kalau tiketnya dihapus, jam yang dikembalikan tanpa servis tidak tercatat. | commit `<hash>` |
+| G1 | `03` 5.2, `TIKET.status` | `menginap`, `siap`, `diambil` | Ditambah `batal` | Saat uji coba, satu pelanggan membatalkan servis mesin. Kalau tiketnya dihapus, jam yang dikembalikan tanpa servis tidak tercatat. | commit `<hash>` |
 | G2 | `04` FW1, input `ciriJam` | Teks bebas | Tiga pilihan cepat (analog/digital, warna, tali) ditambah teks bebas | Saat uji di HP, mengetik ciri jam adalah langkah paling lama dalam membuat tiket. | commit `<hash>`, uji U01 diulang |
-| G3 | `03` 4.2, `JENIS_PEKERJAAN.estimasiHari` | Angka tetap di kode | Bisa diubah di halaman Pengaturan | Saat uji coba di kios, Pak Darto minta estimasi servis mesin bisa dinaikkan menjadi 6 hari kalau suku cadangnya harus dipesan dulu. Dengan angka tetap di kode, permintaan itu hanya bisa dipenuhi lewat saya. | commit `<hash>` |
+| G3 | `03` 5.2, `JENIS_PEKERJAAN.estimasiHari` | Angka tetap di kode | Bisa diubah di halaman Pengaturan | Saat uji coba di kios, Pak Darto minta estimasi servis mesin bisa dinaikkan menjadi 6 hari kalau suku cadangnya harus dipesan dulu. Dengan angka tetap di kode, permintaan itu hanya bisa dipenuhi lewat saya. | commit `<hash>` |
 
 ### Yang saya pelajari
 
@@ -50,9 +50,18 @@
 1. Saat menyalin 20 tiket di PTS−4, menanyakan ke Pak Darto apakah pernah ada servis yang dibatalkan. Dengan begitu status `batal` (G1) sudah ada di model data sejak `03`.
 2. Mengamati lebih banyak tiket servis mesin sebelum menetapkan `estimasiHari` = 4, karena dari 20 tiket hanya 5 yang pekerjaan mesin (P2).
 
-## 4. Isian kamu
+## 4. Cek sebelum commit
 
-### 4.1 Gap blueprint vs realisasi
+- [ ] Ada minimal 3 baris gap, masing-masing dengan alasan berupa kejadian nyata dan bukti.
+- [ ] Ada minimal 2 pelajaran, masing-masing menyebut pilar CT dan dasarnya (G atau U).
+- [ ] Ada minimal 2 kesalahan AI dengan kode entri yang benar-benar ada di `prompt-journal.md`.
+- [ ] Ada minimal 2 hal yang akan kulakukan berbeda, masing-masing khas kasusku.
+
+## 5. Isianmu
+
+Semua yang ada di bawah judul ini adalah isianmu, dan hanya bagian ini yang diperiksa dosen. Jangan menghapus judul ini dan jangan menambah bagian baru sesudahnya.
+
+### 5.1 Gap blueprint vs realisasi
 
 | ID | Bagian blueprint | Rencana (PTS) | Realisasi (PAS) | Mengapa berubah | Bukti |
 |---|---|---|---|---|---|
@@ -60,26 +69,19 @@
 | G2 | `<isi>` | `<isi>` | `<isi>` | `<isi>` | `<isi>` |
 | G3 | `<isi>` | `<isi>` | `<isi>` | `<isi>` | `<isi>` |
 
-### 4.2 Yang saya pelajari
+### 5.2 Yang saya pelajari
 
 1. **`<isi: pilar>` (`<isi: G atau U>`):** `<isi>`
 2. **`<isi: pilar>` (`<isi: G atau U>`):** `<isi>`
 
-### 4.3 Yang AI salah
+### 5.3 Yang AI salah
 
 | Entri | Apa salahnya | Bagaimana saya tahu |
 |---|---|---|
 | `<isi: J..>` | `<isi>` | `<isi>` |
 | `<isi: J..>` | `<isi>` | `<isi>` |
 
-### 4.4 Kalau mengulang
+### 5.4 Kalau mengulang
 
 1. `<isi: hal yang khas kasusmu>`
 2. `<isi: hal yang khas kasusmu>`
-
-## 5. Cek sebelum commit
-
-- [ ] Ada minimal 3 baris gap, masing-masing dengan alasan berupa kejadian nyata dan bukti.
-- [ ] Ada minimal 2 pelajaran, masing-masing menyebut pilar CT dan dasarnya (G atau U).
-- [ ] Ada minimal 2 kesalahan AI dengan kode entri yang benar-benar ada di `prompt-journal.md`.
-- [ ] Ada minimal 2 hal yang akan kulakukan berbeda, masing-masing khas kasusku.

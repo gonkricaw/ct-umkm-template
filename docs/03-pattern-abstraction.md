@@ -1,28 +1,28 @@
 # 03 · Pattern & Abstraction: Pola, Model Data, dan yang Diabaikan
 
-**Minggu:** PTS−2 · **Dinilai di:** PTS, kriteria *Pattern & data lapangan* (bagian 4.1, bersama `01`) dan *Abstraction* (bagian 4.2 dan 4.3), masing-masing 15 poin
+**Minggu:** PTS−2 · **Dinilai di:** PTS, kriteria *Pattern & data lapangan* (bagian 5.1, bersama `01`) dan *Abstraction* (bagian 5.2 dan 5.3), masing-masing 15 poin
 
 > [!TIP]
 > **Pilar CT yang dilatih: Pattern Recognition dan Abstraction.** Pattern Recognition: menemukan apa yang berulang di data dan membuktikannya dengan hitungan. Abstraction: memutuskan data apa yang disimpan aplikasi, dan berani membuang sisanya dengan alasan.
 
 ## 1. Yang harus ada
 
-**4.1 Pola**
+**5.1 Pola**
 
 - [ ] **Minimal 3 pola.**
 - [ ] Setiap pola punya **hitungan berbentuk "x dari y"** (misalnya "5 dari 20 tiket"), bukan kata "sering" atau "kebanyakan".
 - [ ] Setiap pola menyebut **kode bukti** dari `01` (N atau T).
 - [ ] Setiap pola punya **akibat untuk desain**: FW, atribut, atau aturan yang lahir dari pola itu.
 
-**4.2 Model data**
+**5.2 Model data**
 
 - [ ] **Minimal 2 entitas**, masing-masing dengan **minimal 3 atribut**.
 - [ ] Setiap atribut punya **tipe** (teks, angka, tanggal, ya/tidak, daftar) dan **contoh nilai**.
 - [ ] Setiap entitas punya **1 atribut kunci** (nilai unik, ditandai `PK`).
-- [ ] Setiap atribut **dipakai** oleh minimal satu FW, Tantangan Bonus, atau pola. Atribut yang tidak dipakai siapa pun pindahkan ke 4.3.
+- [ ] Setiap atribut **dipakai** oleh minimal satu FW, Tantangan Bonus, atau pola. Atribut yang tidak dipakai siapa pun pindahkan ke 5.3.
 - [ ] Hubungan antarentitas ditulis, dengan `erDiagram` Mermaid atau satu kalimat.
 
-**4.3 Yang sengaja diabaikan**
+**5.3 Yang sengaja diabaikan**
 
 - [ ] **Minimal 3 hal**, masing-masing dengan **alasan** yang menunjuk ke data, pola, atau FW.
 
@@ -112,9 +112,19 @@ Isi tabel `JENIS_PEKERJAAN`: `BAT` ganti baterai 0, `TLI` ganti tali 0, `KCA` ga
 | Pelanggan sebagai entitas sendiri (riwayat servis per orang) | Tidak ada FW yang membutuhkan riwayat. `panggilan` dan `noWa` cukup disimpan di tiket. |
 | Biaya servis | Tetap ditulis di nota kertas Pak Darto. Tidak dibaca FW1 sampai FW3. |
 
-## 4. Isian kamu
+## 4. Cek sebelum commit
 
-### 4.1 Pola
+- [ ] Ada 3 pola, masing-masing dengan hitungan "x dari y", kode bukti, dan akibat untuk desain.
+- [ ] Hitungan sudah kucocokkan sendiri dengan data di `01`, bukan hanya dari jawaban AI.
+- [ ] Ada 2 entitas dengan masing-masing 3 atribut bertipe, contoh nilai, dan 1 kunci.
+- [ ] Setiap atribut punya isian "Dipakai oleh".
+- [ ] Ada 3 hal yang sengaja diabaikan, masing-masing dengan alasan.
+
+## 5. Isianmu
+
+Semua yang ada di bawah judul ini adalah isianmu, dan hanya bagian ini yang diperiksa dosen. Jangan menghapus judul ini dan jangan menambah bagian baru sesudahnya.
+
+### 5.1 Pola
 
 | Kode | Pola | Hitungan ("x dari y") | Bukti | Akibat untuk desain |
 |---|---|---|---|---|
@@ -122,7 +132,7 @@ Isi tabel `JENIS_PEKERJAAN`: `BAT` ganti baterai 0, `TLI` ganti tali 0, `KCA` ga
 | P2 | `<isi>` | `<isi>` | `<isi>` | `<isi>` |
 | P3 | `<isi>` | `<isi>` | `<isi>` | `<isi>` |
 
-### 4.2 Model data
+### 5.2 Model data
 
 Diagram (dianjurkan). Ganti nama entitas dan atribut:
 
@@ -152,18 +162,10 @@ Hubungan antarentitas (satu kalimat): `<isi>`
 | `<isi>` | `<isi>` | `<isi>` | `<isi>` | `<isi>` |
 | `<isi>` | `<isi>` | `<isi>` | `<isi>` | `<isi>` |
 
-### 4.3 Yang sengaja diabaikan
+### 5.3 Yang sengaja diabaikan
 
 | Hal | Alasan (tunjuk data, pola, atau FW) |
 |---|---|
 | `<isi>` | `<isi>` |
 | `<isi>` | `<isi>` |
 | `<isi>` | `<isi>` |
-
-## 5. Cek sebelum commit
-
-- [ ] Ada 3 pola, masing-masing dengan hitungan "x dari y", kode bukti, dan akibat untuk desain.
-- [ ] Hitungan sudah kucocokkan sendiri dengan data di `01`, bukan hanya dari jawaban AI.
-- [ ] Ada 2 entitas dengan masing-masing 3 atribut bertipe, contoh nilai, dan 1 kunci.
-- [ ] Setiap atribut punya isian "Dipakai oleh".
-- [ ] Ada 3 hal yang sengaja diabaikan, masing-masing dengan alasan.

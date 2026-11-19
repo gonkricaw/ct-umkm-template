@@ -26,7 +26,7 @@ Pilih **satu jalur**. Minimum terpenuhi kalau satu jalur lengkap. Dua jalur yang
 - [ ] **Minimal 3 temuan awal**, masing-masing menyebut kode buktinya (misalnya `N2`, `T05`).
 - [ ] Tidak ada data pribadi (lihat 2.3).
 
-Data yang dikarang, oleh kamu sendiri atau oleh AI, tidak dihitung. Wawancara dengan pemilik atau pekerja UMKM nyata yang sejenis dengan kasusmu mendapat nilai plus.
+Data yang dikarang, oleh kamu sendiri atau oleh AI, tidak dihitung. Nilai plus: minimal satu narasumber (Jalur A) adalah **pemilik** UMKM nyata yang sejenis dengan kasusmu, dan izinnya tercatat. Plus ini menaikkan nilai satu tingkat, hanya kalau hitungan polamu di `03` cocok dengan data di file ini.
 
 ## 2. Cara mengerjakan
 
@@ -70,6 +70,9 @@ Repo kamu **public**. Siapa pun bisa membacanya.
 - Nama usaha hanya ditulis kalau pemiliknya mengizinkan. Kalau tidak, tulis jenis dan wilayahnya, misalnya "laundry kiloan dekat kampus".
 
 Dasar hukumnya: UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi.
+
+> [!CAUTION]
+> **Data pribadi nyata di repo menurunkan nilai.** Kalau nama lengkap, nomor HP, alamat rumah, plat nomor, atau foto wajah narasumber atau pelanggan ada di file mana pun di repo, kriteria *Pattern & data lapangan* di PTS langsung bernilai Kurang. Di PAS, data pribadi nyata di repo atau di video membuat kriteria *Prototipe* langsung Kurang.
 
 ### 2.4 Peran AI minggu ini
 
@@ -122,17 +125,27 @@ AI boleh membantu menyusun daftar pertanyaan atau memeriksa apakah pertanyaanmu 
 
 Perhatikan: temuan awal hanya menyebut apa yang terlihat. Menghitung dan menyimpulkan baru dilakukan di `03`.
 
-## 4. Isian kamu
+## 4. Cek sebelum commit
 
-### 4.1 Jalur yang dipilih
+- [ ] Satu jalur sudah lengkap: 3 narasumber dengan masing-masing 5 pertanyaan dan 1 kutipan, **atau** 20 baris transaksi dengan 5 kolom.
+- [ ] Setiap pertanyaan menanyakan kejadian yang sudah terjadi, bukan pendapat atau rencana.
+- [ ] Ada 3 temuan awal dan setiap temuan menyebut kode buktinya.
+- [ ] Tidak ada nama lengkap, nomor HP, alamat, plat nomor, atau foto wajah di file ini.
+- [ ] Bagian jalur yang tidak dipakai (5.3A atau 5.3B) sudah dihapus.
+
+## 5. Isianmu
+
+Semua yang ada di bawah judul ini adalah isianmu, dan hanya bagian ini yang diperiksa dosen. Jangan menghapus judul ini dan jangan menambah bagian baru sesudahnya.
+
+### 5.1 Jalur yang dipilih
 
 `<isi: A (narasumber) atau B (transaksi)>`
 
-### 4.2 Sumber dan izin
+### 5.2 Sumber dan izin
 
 `<isi: dari mana data didapat, kapan secara relatif (misalnya PTS−4), bagaimana caranya, izin yang diberikan>`
 
-### 4.3A Narasumber (hapus bagian ini kalau memakai Jalur B)
+### 5.3A Narasumber (hapus bagian ini kalau memakai Jalur B)
 
 #### N1
 
@@ -191,7 +204,7 @@ Kutipan langsung: "`<isi>`"
 
 Kutipan langsung: "`<isi>`"
 
-### 4.3B Transaksi (hapus bagian ini kalau memakai Jalur A)
+### 5.3B Transaksi (hapus bagian ini kalau memakai Jalur A)
 
 Ganti judul kolom sesuai kasusmu. Minimal 5 kolom; tambah kolom kalau perlu.
 
@@ -218,18 +231,10 @@ Ganti judul kolom sesuai kasusmu. Minimal 5 kolom; tambah kolom kalau perlu.
 | T19 | | | | | |
 | T20 | | | | | |
 
-### 4.4 Temuan awal
+### 5.4 Temuan awal
 
 | Kode | Temuan | Bukti |
 |---|---|---|
 | TA1 | `<isi>` | `<isi: kode N atau T>` |
 | TA2 | `<isi>` | `<isi>` |
 | TA3 | `<isi>` | `<isi>` |
-
-## 5. Cek sebelum commit
-
-- [ ] Satu jalur sudah lengkap: 3 narasumber dengan masing-masing 5 pertanyaan dan 1 kutipan, **atau** 20 baris transaksi dengan 5 kolom.
-- [ ] Setiap pertanyaan menanyakan kejadian yang sudah terjadi, bukan pendapat atau rencana.
-- [ ] Ada 3 temuan awal dan setiap temuan menyebut kode buktinya.
-- [ ] Tidak ada nama lengkap, nomor HP, alamat, plat nomor, atau foto wajah di file ini.
-- [ ] Bagian jalur yang tidak dipakai (4.3A atau 4.3B) sudah dihapus.

@@ -127,7 +127,17 @@ HITUNG_JANJI_AMBIL(tglMasuk, kodePekerjaan, JENIS_PEKERJAAN)
 
 Output: `janjiAmbil` = **Senin**.
 
-## 4. Isian kamu
+## 4. Cek sebelum commit
+
+- [ ] Setiap FW di README punya bagian di file ini.
+- [ ] Setiap flowchart punya Mulai, Selesai, dan keputusan dengan dua cabang berlabel, serta tampil sebagai gambar di github.com.
+- [ ] Nama atribut di pseudocode sama persis dengan model data di `03`.
+- [ ] Setiap FW punya minimal 1 kasus tepi, dan ada 1 uji tangan untuk FW paling rumit yang sudah kujalankan sendiri.
+- [ ] Langkah dan keputusan di flowchart sama dengan pseudocode-nya (cek diri, supaya kode nanti tidak bingung mengikuti yang mana).
+
+## 5. Isianmu
+
+Semua yang ada di bawah judul ini adalah isianmu, dan hanya bagian ini yang diperiksa dosen. Jangan menghapus judul ini dan jangan menambah bagian baru sesudahnya.
 
 Salin blok FW di bawah ini sekali untuk setiap FW. Nomori kasus tepi berurutan di seluruh file (K1, K2, dan seterusnya). Uji tangan ditulis sekali saja, di bagian paling bawah.
 
@@ -178,11 +188,3 @@ Input yang dicoba: `<isi>`
 | `<isi>` | | |
 
 Output: `<isi>`
-
-## 5. Cek sebelum commit
-
-- [ ] Setiap FW di README punya bagian di file ini.
-- [ ] Setiap flowchart punya Mulai, Selesai, dan keputusan dengan dua cabang berlabel, serta tampil sebagai gambar di github.com.
-- [ ] Nama atribut di pseudocode sama persis dengan model data di `03`.
-- [ ] Setiap FW punya minimal 1 kasus tepi, dan ada 1 uji tangan untuk FW paling rumit yang sudah kujalankan sendiri.
-- [ ] Langkah dan keputusan di flowchart sama dengan pseudocode-nya (cek diri, supaya kode nanti tidak bingung mengikuti yang mana).
