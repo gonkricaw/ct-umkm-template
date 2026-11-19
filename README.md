@@ -52,7 +52,7 @@ Kalau memilih jalur transaksi, isi satu baris saja: kode `T`, sumber catatan (mi
 | Rilis PTS | tag `v-pts` di menu **Releases** repo ini |
 | Rilis PAS | tag `v-pas` di menu **Releases** repo ini |
 
-**Link live harus berasal dari situs Netlify yang terhubung ke repo ini** (Netlify: **Add new project**, lalu **Import an existing project**, pilih GitHub dan repo ini; build command dikosongkan, publish directory diisi root `.`). Dengan cara ini setiap push otomatis memperbarui situs, sehingga link live selalu sama dengan isi repo. Unggah manual (drag and drop folder) hanya untuk keadaan darurat, dan beri tahu dosen kalau terpaksa memakainya.
+**Link live harus berasal dari situs Netlify yang terhubung ke repo ini** (di dasbor Netlify: **Import from Git**, lalu **GitHub → Connect**, pilih repo ini; build command dikosongkan, publish directory diisi root `.`; nama menu bisa sedikit berbeda). Dengan cara ini setiap push yang mengubah `index.html`, `css/`, `js/`, atau `data/` otomatis memperbarui situs, sehingga kode di link live selalu sama dengan kode di repo. Unggah manual (drag and drop folder) hanya untuk keadaan darurat, dan beri tahu dosen kalau terpaksa memakainya.
 
 **Link live harus bisa dibuka tanpa login.** Situs Netlify baru bisa berstatus privat: hanya pemilik akun yang bisa membukanya. Setelah situs tayang, tekan **Make public** di pengaturan situs Netlify, lalu buka link live di jendela samaran browser. Halaman aplikasi harus langsung tampil, bukan halaman login Netlify. Di Netlify baru, pengaturannya ada di **Manage → General → Visitor access → Project visibility → Edit visibility → Public → Save**.
 
@@ -178,7 +178,7 @@ Daftar ini memuat **semua** yang dinilai sebagai minimum. Angkanya sama dengan y
 
 | File | Minimum |
 |---|---|
-| Aplikasi | Semua FW berjalan di link live Netlify yang terhubung ke repo ini (auto-deploy setiap push); link live terbuka tanpa login (**Make public**); data tetap ada setelah halaman dimuat ulang. Saat tanya jawab kamu menunjukkan deploy yang tayang di Netlify (menu **Activity → Deploys**, branch `main`) beserta hash commit-nya. Antara commit itu dan `v-pas` tidak boleh ada perubahan di `index.html`, `css/`, `js/`, atau `data/`. Commit yang hanya mengubah `docs/` atau `README.md` memang tidak di-deploy (aturan hemat kredit di `netlify.toml`) |
+| Aplikasi | Semua FW berjalan di link live Netlify yang terhubung ke repo ini (auto-deploy setiap push); link live terbuka tanpa login (**Make public**); data tetap ada setelah halaman dimuat ulang. Saat tanya jawab kamu menunjukkan deploy berstatus **Published** di **Activity → Deploys** (branch `main`) beserta hash commit-nya. Antara commit itu dan `v-pas` tidak boleh ada perubahan di `index.html`, `css/`, `js/`, atau `data/`. Commit yang hanya mengubah `docs/` atau `README.md` memang tidak di-deploy (aturan hemat kredit di `netlify.toml`) |
 | `README.md` | Bagian 4, 5, dan 11 lengkap: link live, link video, timestamp video per FW, status setiap FW, pernyataan AI diperbarui |
 | `05-testing.md` | 5 kasus uji; 2 di antaranya kasus tepi atau ekstrem; setiap FW punya 1 kasus uji; setiap kasus Gagal punya tindak lanjut |
 | `06-refleksi.md` | 3 baris gap blueprint vs realisasi; 2 pelajaran; 2 kesalahan AI dengan kode entri journal; 2 hal yang akan dilakukan berbeda, masing-masing menyebut hal yang khas kasusmu |
