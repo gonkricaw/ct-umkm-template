@@ -57,7 +57,7 @@ Cara membuat rilis: buka repo di github.com, klik **Releases**, lalu **Draft a n
 
 ## 5. Fitur Wajib
 
-Salin Fitur Wajib dari bank kasus **apa adanya**: setiap butir yang dipisah koma di kolom Fitur Wajib menjadi satu FW (FW1, FW2, dan seterusnya), dengan urutan yang sama. Jangan memecah satu butir menjadi beberapa FW, dan jangan menggabungkan butir. Kode FW yang sama dipakai di semua file `docs/`. Perbarui status setiap kali kamu commit.
+Salin Fitur Wajib dari bank kasus **apa adanya**: setiap butir yang dipisah koma di kolom Fitur Wajib menjadi satu FW (FW1, FW2, dan seterusnya), dengan urutan yang sama. Koma di dalam tanda kurung bukan pemisah, karena isi kurung adalah rincian butir itu. Label sebelum titik dua (misalnya "POS sederhana:") adalah judul, jadi hitung butirnya sesudah titik dua. Tanda `+`, `&`, dan `/` menyambung bagian dari butir yang sama. Jangan memecah satu butir menjadi beberapa FW, dan jangan menggabungkan butir. Kode FW yang sama dipakai di semua file `docs/`. Perbarui status setiap kali kamu commit.
 
 Status: **Belum** · **Sedang dikerjakan** · **Selesai** (berjalan di link live) · **Teruji** (lulus kasus uji di `docs/05-testing.md`).
 
