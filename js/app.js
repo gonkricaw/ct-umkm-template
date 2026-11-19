@@ -197,6 +197,7 @@ function readImportFile(file) {
 // Mengambil teks data/sample.json. Hasilnya null kalau browser tidak bisa mengambil
 // file itu, misalnya karena index.html dibuka langsung (file://) atau file tidak ada.
 async function fetchSampleText() {
+  if (location.protocol === 'file:') return null; // file://: browser memblokir fetch, jadi tidak dicoba
   try {
     const response = await fetch(SAMPLE_URL);
     if (response.ok) return await response.text();
