@@ -58,7 +58,7 @@ Kalau memilih jalur transaksi, isi satu baris saja: kode `T`, sumber catatan (mi
 
 **Hemat kredit Netlify.** Paket gratis Netlify memberi kredit yang cukup untuk sekitar 20 deploy produksi per bulan. Kalau kredit habis, situsmu berhenti tampil sampai bulan berikutnya. `netlify.toml` di repo ini sudah mengatur agar commit yang hanya mengubah `docs/` atau `README.md` tidak memicu deploy. Commit sesering apa pun, tetapi **push sekali di akhir setiap sesi kerja**, bukan setiap commit. Sisa kredit terlihat di pojok kiri atas dasbor Netlify.
 
-Cara membuat rilis: buka repo di github.com, klik **Releases**, lalu **Draft a new release**. Di kotak tag ketik `v-pts` (atau `v-pas`), pilih **Create new tag**, isi judul, lalu klik **Publish release**. Rilis menyimpan keadaan repo saat itu; dosen menilai isi repo pada tag tersebut.
+Cara membuat rilis: buka repo di github.com, klik **Create a new release** di kolom kanan (kalau sudah pernah ada rilis: **Releases**, lalu **Draft a new release**). Di kotak tag ketik `v-pts` (atau `v-pas`), pilih **Create new tag**, isi judul, lalu klik **Publish release**. Rilis menyimpan keadaan repo saat itu; dosen menilai isi repo pada tag tersebut.
 
 > [!IMPORTANT]
 > **Setelah `v-pas` dibuat, jangan push sampai tanya jawab selesai. Dosen menilai commit `v-pas`.** Saat tanya jawab kamu membuka halaman **Deploys** di Netlify dan menunjukkan deploy dari commit `v-pas`.
